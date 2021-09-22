@@ -8,13 +8,15 @@
 </head>
 <body>
     <script>
-
-        console.log("TV Schedule Dates");
-        var date = 5;
-        for (date = 5;date <= 31; date += 3) {
-            console.log(date);
+      function printLine(count) {
+            var line = '';
+            for (i = 0; i < count; i++) {
+                line += '-';
+            }
+            console.log(line);
         }
-    
+
+        printLine(10);
     </script>
 </body>
 </html>
